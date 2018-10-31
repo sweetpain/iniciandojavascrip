@@ -1,5 +1,5 @@
 /***realizar un script que pida al usuario dos numeros y diga si son iguales */
-var num1= prompt("ingrese su edad")
+var num1= prompt=("ingrese su edad");
 
 
 if (num1>0 && num1<=2){
@@ -31,6 +31,8 @@ else if  (num1>28 && num1<=45){
                 }
 
   //***operador terniario */  
+  var a=5;
+  var b=5;
   var aux=0;
   if(a==b){
       aux=5;
@@ -48,9 +50,11 @@ console.log(aux);
   var result2= year != 2018? true : false;
 
   //***switch */
-  var day= prompt("introduzca un dia de la semana");
+  var day=prompt=("introduzca un dia de la semana");
 
-  switch (day){
+function setDay(day){
+
+switch (day){
       case "sabado":
       console.log("voy a ir al cine")
       break;
@@ -66,3 +70,5 @@ console.log(aux);
       default:
        console.log("no es un dia valido")
   }
+}
+  setDay (day);
