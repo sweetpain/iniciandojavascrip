@@ -42,4 +42,27 @@ console.log(aux);
   }     
   //***esto minimiza todo el anterior ejemplo */
   var result= a==b? 10 : 20
-  console.log(result)
+  console.log(result);
+
+  var year= prompt=("introduzca un año");
+  var result2= year != 2018? true : false;
+
+  //***switch */
+  var day= prompt("introduzca un dia de la semana");
+
+  switch (day){
+      case "sabado":
+      console.log("voy a ir al cine")
+      break;
+
+      case "domingo":
+      console.log("voy hacer de todo")
+      break;
+
+      case "lunes":
+      console.log("voy a trabajar")
+      break;
+
+      default:
+       console.log("no es un dia valido")
+  }
