@@ -29,3 +29,17 @@ else if  (num1>28 && num1<=45){
             else if  (num1>101 && num1<=1000){
                 console.log("esta muerto")
                 }
+
+  //***operador terniario */  
+  var aux=0;
+  if(a==b){
+      aux=5;
+      console.log(aux);
+  } 
+  else{
+aux=10;
+console.log(aux);
+  }     
+  //***esto minimiza todo el anterior ejemplo */
+  var result= a==b? 10 : 20
+  console.log(result)
